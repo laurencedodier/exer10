@@ -66,3 +66,8 @@
     height: auto;
     width: 5%;
 }
+
+.liste{
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

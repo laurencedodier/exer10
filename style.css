@@ -56,3 +56,13 @@
     font-size: 2rem;
     color: blueviolet
 }
+
+.textePorto{
+    font-weight: bold;
+    color: brown;
+}
+
+.newYork li:hover{
+    height: auto;
+    width: 5%;
+}

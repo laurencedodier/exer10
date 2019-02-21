@@ -34,3 +34,20 @@
 .etiquette-citation {
     background-color:rgb(242, 249, 239);
 }
+
+.galPorto li{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.galPorto li:hover{
+    box-shadow: 5px 5px 5px orange;
+}
+
+.galMontagne li{
+    opacity: 0.2;
+}
+
+.galMontagne li:hover{
+    box-shadow: 10px 10px 10px grey;
+    opacity: 1;
+}

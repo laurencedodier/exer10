@@ -1,35 +1,48 @@
 .listeCours {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin: 2%;
+}
+
+@include media(mobile) {
+  .listeCours {
+        grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     margin: 2%;
-
-	@include media (mobile) {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin: 2%;
-    }
-
-    @include media (tablet) {
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        margin: 2%;
-    }
-
-    @include media (desktop) {
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-        margin: 2%;
-    }
-
-    @include media (wide) {
-        grid-template-columns: repeat(5, 1fr);
-        grid-gap: 10px;
-        margin: 2%;
-    }
-    
   }
+}
 
-  
+@include media(tablet)  {
+  .listeCours {
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 2%;
+  }
+}
+
+@include media(desktop) {
+  .listeCours {
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 2%;
+  }
+}
+
+@include media(wide) {
+  .listeCours {
+        grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: 2%;
+  }
+}
+
+.listeCours .entry-title h3 {
+  font-size: .5em;
+}
+
+.listeCours .entry-title h4 {
+  font-size: .4em;
+}

@@ -1,46 +1,48 @@
 .listeCours {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-gap: 40px;
-  margin: 10%;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    margin: 10%;
+    border: solid 1px black;
+    padding:30px;
+    border-radius: 25px;
 }
 
 @include media(mobile) {
   .listeCours {
         grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-    margin: 8%;
+        grid-gap: 40px;
+        margin: 8%;
   }
 }
 
 @include media(tablet)  {
   .listeCours {
         grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    margin: 6%;
+        grid-gap: 30px;
+        margin: 6%;
   }
 }
 
 @include media(desktop) {
   .listeCours {
         grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    margin: 4%;
+        grid-gap: 20px;
+        margin: 4%;
   }
 }
 
 @include media(wide) {
   .listeCours {
         grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    margin: 2%;
+        grid-gap: 10px;
+        margin: 2%;
   }
 }
 
 .entry-title {
-  font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .entry-title:hover{

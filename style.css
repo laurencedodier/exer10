@@ -959,12 +959,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   }
 }
 
-.listeCours .entry-title h3 {
-  font-size: .5em;
+.entry-title {
+  font-size: 1.1em;
 }
 
-.listeCours .entry-title h4 {
-  font-size: .4em;
+.entry-title:hover {
+  background-color: lightgray;
 }
 
 /*--------------------------------------------------------------

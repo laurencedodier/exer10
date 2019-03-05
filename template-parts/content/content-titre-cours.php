@@ -12,6 +12,9 @@
 ?>
 <?php
 
-		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+
+		
+ 		$no_session =  substr(get_the_title(),4,1);
+		the_title( sprintf( '<h2 class="entry-title %s"><a href="%s" rel="bookmark">','session'.$no_session,  esc_url( get_permalink() ) ), '</a></h2>' );
 		?>
 

@@ -23,7 +23,7 @@ get_header();
 				?>
 			</header><!-- .page-header -->
 
-			<div class="listeCours">
+			<div class="listeCours ">
 			<?php
 			// Start the Loop.
 			while ( have_posts() ) :

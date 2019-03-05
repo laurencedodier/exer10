@@ -1008,6 +1008,13 @@ article {
 .entry-content {
   background-color: #fdf5e8;
   border-left: 2px solid paleturquoise;
+  border-radius: 0px 50px 0px 50px;
+}
+
+.entry-content:hover {
+  background-color: rgba(253, 245, 232, 0.555);
+  border-left: 2px solid palegreen;
+  border-radius: 50px 0px 50px 0px;
 }
 
 .entry-title {

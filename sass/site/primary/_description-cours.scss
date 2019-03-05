@@ -1,9 +1,16 @@
+article{
+    background-color: rgba(235, 252, 235, 0.479);
+}
+
 .entry-content{
-    background-color: papayawhip;
-    border-left: 2px solid black;
+    background-color: rgb(253, 245, 232);
+    border-left: 2px solid paleturquoise;
 }
 
 .entry-title{
+    color: palevioletred;
     font-size: 2rem;
     font-style: italic;
+    border-bottom: 2px solid paleturquoise;
 }
+

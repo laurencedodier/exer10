@@ -999,6 +999,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 /*--------------------------------------------------------------
+## description-cours
+--------------------------------------------------------------*/
+.entry-content {
+  background-color: papayawhip;
+  border-left: 2px solid black;
+}
+
+.entry-title {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
 .comment-content a {
